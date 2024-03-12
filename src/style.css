@@ -12,7 +12,7 @@
 
 body
 {
-    background: url(../images/background.jpg);
+    background: url(../dist/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 	background-attachment: fixed;
@@ -137,7 +137,6 @@ h2
     width: 300px;
     height: 300px;
     border-radius: 20rem;
-    background: url(../images/homecard.webp);
 }
 
 .hours
@@ -181,45 +180,18 @@ h2
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 0.2fr);
     gap: 3vh;
-    width: 45vw;
-    max-width: 650px;
+    width: 40vw;
+    max-width: 600px;
 
 }
 
 .dessert > img
 {
     grid-area: 1 / 2 / 4 / 3;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 20rem;
     align-self: center;
-}
-
-#Macarons
-{
-    background: url(../images/macarons.avif);
-}
-
-#Brownie
-{
-    background: url(../images/brownies.webp);
-}
-
-#Cheesecake
-{
-    background: url(../images/cheesecake.webp);
-}
-
-#Croissant
-{
-    background: url(../images/croissant.avif);
-}
-
-#Chocolateingot
-{
-    background: url(../images/ingot.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .dessert > p
