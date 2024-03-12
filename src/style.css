@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body
+{
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    height: 100vh;
+}
+
+header
+{
+    backdrop-filter: blur(3px);
+    height: 25vh;  
+    max-height: 220px;
+    display: grid;
+    place-items: center; 
+    background-color: rgba(0,0,0,.8);
+    margin-bottom: 10vh;
+}
+
+nav
+{
+    display: flex;
+    gap: 3vw;
+    justify-content: space-around;
+    width: 20%;
+}
+
+nav > button
+{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+nav > button:hover
+{
+    color: #fef08a;
+    border-bottom: #fef08a solid 1px;
+}
+
+
+
+h1,h2
+{
+    font-family: "Dancing Script", cursive;
+}
+
+h1
+{
+    font-size: 6rem;
+}
+
+h2
+{
+    color: #fef08a;
+    font-size: 3rem;
+}
+
+/* MAIN SECTION */
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+#content > div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.card
+{
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(3px);
+    border-radius: 0.9rem;
+    width: 50vw;
+    max-width: 750px;
+    padding: 5vh 3vw;
+}
+
+/*HOME*/
+
+#description
+{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 3vh;
+
+}
+
+#welcome
+{
+    grid-area: 2 / 1 / 2 / 3;
+    font-size: 1.4rem;
+    width: 270px;
+}
+
+#welcome > span
+{
+    color: #f59e0b;
+}
+
+#slogan
+{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 300px;
+    color: #fef08a;
+}
+
+#description > img
+{
+    grid-area: 1 / 2 / 3 / 3;
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 20rem;
+}
+
+.hours
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    
+}
+
+.hours > div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-size: 1.3rem;
+}
+
+.hours > div > span > span
+{
+    color: #f59e0b;
+}
+
+/*CONTACT*/
+.contact > span
+{
+    font-size: 1.3rem;
+}
+
+.contact > span > span
+{
+    color:#fef08a;
+}
+
+/* MENU */
+
+.dessert
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 0.2fr);
+    gap: 3vh;
+    width: 40vw;
+    max-width: 600px;
+
+}
+
+.dessert > img
+{
+    grid-area: 1 / 2 / 4 / 3;
+    width: 250px;
+    height: 250px;
+    border-radius: 20rem;
+    align-self: center;
+}
+
+.dessert > p
+{
+    color: #a3a3a3;
+}
+
+.dessert > p > span
+{
+    color: #fde047;
+}
+
+.dessert > span
+{
+    font-size: 1.4rem;
+}
+
+.dessert > span > span
+{
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    color: #fef08a;
+    font-size: 2.5rem;
+}
