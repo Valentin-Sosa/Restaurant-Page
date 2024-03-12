@@ -14,6 +14,13 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+      {
+				test: /\.(png|jpg|jpeg|gif|svg|webp|avif)$/i,
+				type: "asset/resource",
+				generator: {
+					filename: "images/[name][ext]",
+				},
+			},
     ],
   },
   devtool: 'inline-source-map',
