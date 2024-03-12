@@ -11,7 +11,6 @@ function createHomeCard()
     description.id = "welcome";
     description.innerHTML = "<span>Welcome to DulceBakery!</span> A place that is the product of years of effort and preparation."
     const image = document.createElement("img");
-    image.src = "../images/homecard.webp"
     homeCard.appendChild(description);
     homeCard.appendChild(slogan);
     homeCard.appendChild(image);
