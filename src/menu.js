@@ -25,11 +25,11 @@ function createMenu()
     const divMenu = document.createElement("div");
     divMenu.id = "menu";
 
-    divMenu.appendChild(createDessertCard("Macarons","../images/macarons.avif", 5));
-    divMenu.appendChild(createDessertCard("Brownie", "../images/brownies.webp", 2));
-    divMenu.appendChild(createDessertCard("Croissant", "../images/croissant.webp",2));
-    divMenu.appendChild(createDessertCard("Cheesecake", "../images/cheesecake.webp", 3));
-    divMenu.appendChild(createDessertCard("Chocolate ingot", "../images/ingot2.jpeg", 4));
+    divMenu.appendChild(createDessertCard("Macarons","../dist/images/macarons.avif", 5));
+    divMenu.appendChild(createDessertCard("Brownie", "../dist/images/brownies.webp", 2));
+    divMenu.appendChild(createDessertCard("Croissant", "../dist/images/croissant.webp",2));
+    divMenu.appendChild(createDessertCard("Cheesecake", "../dist/images/cheesecake.webp", 3));
+    divMenu.appendChild(createDessertCard("Chocolate ingot", "../dist/images/ingot2.jpeg", 4));
 
     return divMenu;
 }
