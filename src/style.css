@@ -137,6 +137,7 @@ h2
     width: 250px;
     height: 250px;
     border-radius: 20rem;
+    background: url(../images/homecard.webp);
 }
 
 .hours
